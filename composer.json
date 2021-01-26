@@ -1,0 +1,8 @@
+{
+    "autoload": {
+    },
+    "require": {
+        "phpunit/phpunit": "7.0",
+        "phpunit/dbunit": "^4.0"
+    }
+}
