@@ -12,12 +12,45 @@
         return $query_result;
     }
 
+    function get_designers() {
+        global $pdo;
+        $query = "SELECT * FROM designers";
+        $query_result = $pdo->query($query);
+        return $query_result;
+    }
+
+    function get_shipyards() {
+        global $pdo;
+        $query = "SELECT * FROM shipyards";
+        $query_result = $pdo->query($query);
+        return $query_result;
+    }
+
+    function get_customers() {
+        global $pdo;
+        $query = "SELECT * FROM customers";
+        $query_result = $pdo->query($query);
+        return $query_result;
+    }
+
     $title = "";
 
     switch ($category) {
         case 1:
             $title = "Суда:";
             $query_result = get_vessels();
+            break;
+        case 2:
+            $title = "Проектанты:";
+            $query_result = get_designers();
+            break;
+        case 3:
+            $title = "Верфи:";
+            $query_result = get_shipyards();
+            break;
+        case 4:
+            $title = "Заказчики:";
+            $query_result = get_customers();
             break;
     }
     
