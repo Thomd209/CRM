@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="crm">
+	<table_data name="admin">
+	<row>
+		<field name="id">1</field>
+		<field name="login">admin</field>
+		<field name="password">$2y$10$wDjsEOdb7I17APvKuCrGUOybAAZY/AbIHqwfgP0sfJovArBQB2ure</field>
+	</row>
+	</table_data>
+	<table_data name="categories">
+	<row>
+		<field name="id">1</field>
+		<field name="category">Суда</field>
+	</row>
+	<row>
+		<field name="id">2</field>
+		<field name="category">Проектанты</field>
+	</row>
+	<row>
+		<field name="id">3</field>
+		<field name="category">Верфи</field>
+	</row>
+	<row>
+		<field name="id">4</field>
+		<field name="category">Заказчики</field>
+	</row>
+	</table_data>
+	<table_data name="customers">
+	<row>
+		<field name="id_customer">15</field>
+		<field name="customer_working_name">Атомфлот</field>
+		<field name="entity">ФГУП &quot;Атомфлот&quot;</field>
+		<field name="INN">5192110268</field>
+		<field name="contacts">general@rosatomflot.ru</field>
+	</row>
+	</table_data>
+	<table_data name="designers">
+	<row>
+		<field name="id_designer">1</field>
+		<field name="designer_working_name">&quot;ЦКБ &quot;Айсберг&quot;</field>
+		<field name="entity">ПАО &quot;ЦКБ &quot;Айсберг&quot;</field>
+		<field name="INN">7801005606</field>
+		<field name="contacts">main@iceberg.sp.ru</field>
+	</row>
+	</table_data>
+	<table_data name="history_customers">
+	</table_data>
+	<table_data name="history_designers">
+	</table_data>
+	<table_data name="history_shipyards">
+	</table_data>
+	<table_data name="shipyards">
+	<row>
+		<field name="id_shipyard">15</field>
+		<field name="shipyard_working_name">Балтийский завод</field>
+		<field name="entity">АО Балтийский завод&quot;</field>
+		<field name="INN">7830001910</field>
+		<field name="contacts">zavod@bz.ru</field>
+	</row>
+	</table_data>
+	<table_data name="vessels">
+	<row>
+		<field name="id">2</field>
+		<field name="IMO">9694725</field>
+		<field name="project">22220</field>
+		<field name="ship_name">Арктика</field>
+		<field name="ship_type">Универсальный атомный ледокол</field>
+		<field name="building_number">05706</field>
+		<field name="project_stage">Испытания</field>
+		<field name="purchase_stage">Завершена</field>
+		<field name="id_designer">1</field>
+		<field name="id_shipyard">15</field>
+		<field name="id_customer">15</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
