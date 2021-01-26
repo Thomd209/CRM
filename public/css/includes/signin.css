@@ -1,0 +1,40 @@
+.signin {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.signin__title {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signin__empty-fields {
+    margin: 0 auto;
+    color: red;
+}
+
+.signin__bad-input-data {
+    text-align: center;
+    margin: 0 auto;
+    color: red;
+}
+
+.signin__form {
+    width: 250px;
+    margin: 10px auto;
+}
+
+.signin__submit {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #000;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}

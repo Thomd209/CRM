@@ -1,0 +1,130 @@
+.content {
+    flex: 1;
+    margin-top: 70px;
+}
+
+.content__title {
+    display: block;
+    margin: 1rem 0 0 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.content__information-table {
+    width: 98%;
+    margin: 1rem;
+}
+
+.content__partners-information-table {
+    width: 70%;
+    margin: 1rem;
+}
+
+.add-btn {
+    display: block;
+    margin: 1rem 1rem 0 1rem;
+    width: 100px;
+}
+
+.company-data {
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+
+@media all and (max-width: 321px) {
+    .company-data__delete-btn {
+        margin-top: 10px;
+    }
+}
+
+.add-history__title {
+    margin: 1rem 1rem 0 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.add-history__field {
+    width: 50%;
+    overflow: auto;
+    margin: 1rem 1rem 0 1rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.add-history__submit {
+    display: block;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.history-container {
+    margin: 2rem 1rem;
+}
+
+.history-container__title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.history-container__history-record {
+    display: flex;
+    align-items: center;
+}
+
+.history-container__history-record p {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.history-container__text, .history-container__link {
+    margin-top: 10px;
+}
+
+.history-container__link {
+    margin-left: 10px;
+} 
+
+.add-worker, .change-worker {
+    margin: 1rem;
+}
+
+.add-worker label {
+    display: block;
+    margin-top: 10px;
+}
+
+.change-worker label {
+    display: block;
+    margin-top: 10px;
+}
+
+.submit-vessel-data, .submit-company-data  {
+    display: block;
+    margin: 30px 0 70px 0;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-add-vessel {
+    margin: 1rem 1rem 0 1rem;
+}
+
+.form-container {
+    margin: 1rem;
+}
+
+.add-title {
+    font-weight: bold;
+}
+
+.form-container label, select {
+    display: block;
+    margin-top: 10px;
+}
+

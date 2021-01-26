@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    background: #000;
+    flex: 0;
+}
+
+.footer__copyright {
+    padding: 1rem;
+}
+
+.footer__copyright-content {
+    color: #fff;
+    font-size: 1.25rem;
+}
